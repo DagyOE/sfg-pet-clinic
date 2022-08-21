@@ -5,11 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Person {
-
-    @Id
-    @GeneratedValue
-    private long id;
+public class Person extends BaseEntity{
 
     private String firstName;
     private String lastName;
